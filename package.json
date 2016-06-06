@@ -1,0 +1,17 @@
+{
+  "name": "spotify_app",
+  "version": "1.0.0",
+  "description": "Displays Spotify music as thumbnails as one types",
+  "main": "app.js",
+  "scripts": {
+    "build": "browserify app.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^13.0.1",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "jquery": "^2.2.4"
+  }
+}

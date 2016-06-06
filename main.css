@@ -1,0 +1,114 @@
+
+html,body{
+
+  background: url('http://i.imgur.com/KfePpFG.jpg');
+  background-repeat: no-repeat;
+   background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+
+
+}
+.text-input{
+  
+  position: relative;
+  margin-top: 5px;
+  margin-left: 425px;
+
+  }
+  input[type="text"]{
+    display: inline-block;
+    width: 500px;
+    height: 40px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px 10px 10px 100px;
+    transition: all 0.1s ease-out;
+  }
+  
+  input[type="text"] + label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    border-radius: 3px 0 0 3px;
+    padding: 0 20px;
+    /*background: #E03616;*/
+    background:#d3d3d3;
+    transform: translateZ(0) translateX(0);
+    transition: all 0.3s ease-in;
+    transition-delay: 0.2s;
+  }
+  
+  input[type="text"]:focus + label{
+    transform: translateY(-120%) translateX(0%);
+    border-radius: 3px;
+    transition: all 0.1s ease-out;
+  }
+  
+  input[type="text"]:focus{
+    padding: 10px;
+    transition: all 0.3s ease-out;
+    transition-delay: 0.2s;
+  }
+}
+.results{
+
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 80px;
+  height:300px;
+  width: 300px;
+  
+  float: left;
+
+}
+.results .songs{
+
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+#spotifylogo{
+
+  margin-left: 600px;
+
+}
+
+
+
+h2{
+
+
+  position: relative;
+  top: 25%; left: 65%; 
+  transform: translate(-50%,-50%);
+  word-wrap:break-word;
+  color: white;
+
+  
+
+
+}
+.song{
+
+
+  position: relative;
+  width: 200px;
+  display: inline-table;
+
+}
+.clear{
+
+  clear: both;
+}
+
+
